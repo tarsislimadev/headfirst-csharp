@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  myfirstconsoleapp:
+    build: './src/myfirstconsoleapp'
+    volumes:
+      - './src/myfirstconsoleapp:/app'
